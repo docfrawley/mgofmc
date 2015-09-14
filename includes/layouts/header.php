@@ -24,24 +24,31 @@
               <ul class="off-canvas-list">
                 <li><a href="index.php">Home</a></li>
                 
-                <li><a href="#">About</a>
-                 <ul>
-                 		<li><a href="#">One</a></li>
-                    <li><a href="#">Two</a></li>
-                    <li><a href="#">Three</a></li>
-                    <li><a href="#">Four</a></li>
+                <li><a href="#">Membership</a> 
+                <li class="has-dropdown"><a href="#">About</a>
+                  <ul class="dropdown">
+                   <li><a href="#">ONE</a></li>
+                   <li><a href="#">TWO</a></li>
+                   <li><a href="#">THREE</a></li>
+                   <li><a href="#">FOUR</a></li>
                   </ul>
-                </li>
-            
-                <li><a href="#">Be an NCED</a>
-                 <ul>
-                    <li><a href="#">ONE</a></li>
-                 <li><a href="#">TWO</a></li>
-                 <li><a href="#">THREE</a></li>
-                 <li><a href="#">FOUR</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">CONTACT</a></li>
+                </li>           
+                <li><a href="#">Educational Gardens</a>
+                <li><a href="#">Monthly Tips</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Links</a></li>
+                <? 
+                if ($_SESSION['member']=='member') {
+                  ?><li><a href="memberin.php">Member Page</a></li>
+                  <li><a href="logout.php">Logout</a></li> <?
+                } elseif ($_SESSION['member']=='admin') {
+                  ?><li><a href="adminpage.php">Admin Page</a></li>
+                  <li><a href="logout.php">Logout</a></li> <?
+                } else {
+                  ?> <li><a href="login.php">Member Login</a></li> <?
+                }
+                ?>
               </ul>
             </aside>
             <a class="exit-off-canvas"></a>
@@ -57,23 +64,32 @@
       </ul>
       <section class="top-bar-section">
         <ul class="right">
-	          <li class="has-dropdown"><a href="#">ABOUT</a>
-  	           <ul class="dropdown">
-  	             <li><a href="#">ONE</a></li>
-  	             <li><a href="#">TWO</a></li>
-                 <li><a href="#">THREE</a></li>
-                 <li><a href="#">FOUR</a></li>
-  	           </ul>
-	          </li>
-          <li class="has-dropdown"><a href="#">BE AN NCED</a>
-                 <ul class="dropdown">
-                    <li><a href="#">ONE</a></li>
-                 <li><a href="#">TWO</a></li>
-                 <li><a href="#">THREE</a></li>
-                 <li><a href="#">FOUR</a></li>
+	        <li><a href="#">Membership</a> 
+                <li class="has-dropdown"><a href="#">About</a>
+                  <ul class="dropdown">
+                   <li><a href="#">ONE</a></li>
+                   <li><a href="#">TWO</a></li>
+                   <li><a href="#">THREE</a></li>
+                   <li><a href="#">FOUR</a></li>
                   </ul>
-              </li>
-          <li><a href="#">CONTACT</a></li>
+                </li>           
+                <li><a href="#">Educational Gardens</a>
+                <li><a href="#">Monthly Tips</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Links</a></li>
+                <? 
+                if ($_SESSION['member']=='member') {
+                  ?><li><a href="memberin.php">Member Page</a></li>
+                  <li><a href="logout.php">Logout</a></li> <?
+                } elseif ($_SESSION['member']=='admin') {
+                  ?><li><a href="adminpage.php">Admin Page</a></li>
+                  <li><a href="logout.php">Logout</a></li> <?
+                } else {
+                  ?> <li><a href="login.php">Member Login</a></li> <?
+                }
+                ?>
+                
         </ul>
       </section>
     </nav>	
