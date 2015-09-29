@@ -34,7 +34,7 @@
                   </ul>
                 </li>           
                 <li><a href="#">Educational Gardens</a>
-                <li><a href="#">Monthly Tips</a></li>
+                <li><a href="monthlytips.php">Monthly Tips</a></li>
                 <li><a href="#">What's New</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Links</a></li>
@@ -74,7 +74,7 @@
                   </ul>
                 </li>           
                 <li><a href="#">Educational Gardens</a>
-                <li><a href="#">Monthly Tips</a></li>
+                <li><a href="monthlytips.php">Monthly Tips</a></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Links</a></li>
