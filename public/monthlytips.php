@@ -40,7 +40,7 @@ Note: DATES MAY CHANGE SLIGHTLY OVER THE YEARS, ESPECIALLY AFTER MILD WINTERS.<b
 	</ul>
   </div>
 </div>
-
-
+ <!-- modal windows -->
+ <?  $this_month_tips->generate_boxes(); ?>
 
 <? include("../includes/layouts/footer.php"); ?>

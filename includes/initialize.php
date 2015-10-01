@@ -22,4 +22,5 @@ require_once(LIB_PATH.DS.'config.php');
 require_once(LIB_PATH.DS.'database.php');
 include_once(LIB_PATH.DS.'functions.php');
 include_once(LIB_PATH.DS.'mtips.php');
+include_once(LIB_PATH.DS.'mtipobject.php');
 ?>
