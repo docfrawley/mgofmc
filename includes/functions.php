@@ -17,6 +17,16 @@ $month = strtotime('2013-01-01');
 	}
 }
 
+function tips_month($themonth){
+	$month = strtotime('2013-01-01');
+	for ($i = 1; $i <= 12; $i++){
+		$month_name = date('F', $month);
+		$add_class = ($month_name==$themonth) ? "class='active'" : "";
+		?> <dd <? echo $add_class;  ?>><a href="?themonth=<? echo $month_name; ?>"><? echo $month_name; ?></a></dd> <?
+		$month = strtotime('+1 month', $month);
+	}
+}
+
 function GetDays() {
 	for($i=1; $i<=31;$i++){
 		?><option value="<? echo $i; ?>"><? echo $i; ?></option><?

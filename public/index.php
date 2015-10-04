@@ -33,12 +33,13 @@
 	</div>
 </div>
 <div class="row">
-  <div class="medium-6 columns panel">
-    <img src="img/2015InsectFest.jpg">
+  <div class="medium-12 columns">
+    <?
+      $frontcontent = new frontobject();
+      $frontcontent->print_fpage();
+    ?>
   </div>
-  <div class="medium-6 columns panel">
-    <a href="pdfs/2015PatSutton.pdf"><img src="img/PatSuttomTalk.jpg"></a>
-  </div>
+ 
 </div>
 <div class="row">
 	<div class="medium-6 columns panel">

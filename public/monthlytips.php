@@ -2,9 +2,18 @@
 <? include("../includes/layouts/header.php"); ?>
 
 
-<? $themonth = date("F"); 
+<? 
+$themonth=isset($_GET['themonth']) ? $_GET['themonth'] : date("F");
 $this_month_tips = new mtipsgroup($themonth);
 ?>
+<div class="row">
+	<div class="medium-12 small-centered columns">
+		<dl class="sub-nav">
+	  		<? tips_month($themonth); ?>
+		</dl>
+	</div>
+</div>
+
 <div class="row">
   <div class="medium-6 columns panel">
     <h4 class="text-center"><? echo "Things to do in {$themonth}";?></h4>

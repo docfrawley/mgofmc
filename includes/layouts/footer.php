@@ -1,9 +1,12 @@
-<div class="row">
-    <div class="small-12 columns text-center panel">
-        <h3>Helpline Number: 609-989-6853</h3>
-    </div>
-</div>
-<?      
+
+<? if (!isset($_GET['admintask'])) {
+	?>
+	<div class="row">
+	    <div class="small-12 columns text-center panel">
+	        <h3>Helpline Number: 609-989-6853</h3>
+	    </div>
+	</div><?
+}   
  mysql_close ();
         
  ?>

@@ -4,9 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Master Gardeners of Mercer County</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link href="css/ion.calendar.css" rel="stylesheet" type="text/css">
+    <script src="ckeditor/ckeditor.js"></script>
     <script src="js/vendor/modernizr.js"></script>
-
-
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
 </head>
 
 
@@ -15,7 +16,7 @@
   
     <div class="off-canvas-wrap" data-offcanvas>
       <div class="inner-wrap">
-        <nav class="tab-bar hide-for-medium-up">
+        <nav class="tab-bar hide-for-large-up">
             <section class="left-small">
               <a class="left-off-canvas-toggle menu-icon"><span>MGofMC</span></a>
             </section>
@@ -55,7 +56,7 @@
 
     <!-- top bar code -->
     <div class="sticky">
-    <nav class="top-bar show-for-medium-up" data-topbar role="navigation" data-options="sticky_on: large">
+    <nav class="top-bar show-for-large-up" data-topbar role="navigation" data-options="sticky_on: large">
       <ul class="title-area">
         <li class="name">
           <h1><a href="index.php">Master Gardeners of Mercer County</a></h1>
