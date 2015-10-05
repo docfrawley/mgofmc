@@ -7,7 +7,7 @@
     <link href="css/ion.calendar.css" rel="stylesheet" type="text/css">
     <script src="ckeditor/ckeditor.js"></script>
     <script src="js/vendor/modernizr.js"></script>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    
 </head>
 
 

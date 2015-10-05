@@ -15,12 +15,35 @@ if (isset($_POST['fname'])){
 
 if (isset($_SESSION['whatmember']) && ($dohours)) {
 	$member = new memberobject($_SESSION['whatmember']) ;
+	if (isset($_POST['workhours'])){
+		switch ($_POST['workhours']) {
+			case 'add':
+				echo "yess here";
+				$member->add_hrs($_POST);
+				break;
+			case 'update':
+				$member->update_hrs($_POST);
+				break;
+			default:
+				break;
+		}
+	}
 	?>
 	<div class="row">
   		<div class="small-12 columns">
-			<? $member->add_hours(); ?>
+			<? $member->add_hours_form(); ?>
 		</div>
-		</div> <?
+	</div> 
+	<div class="row">
+		<div class="small-12 columns">
+			<? $member->list_totals() ?>
+		</div>
+		
+  		<div class="small-12 columns">
+			<? $member->list_hrs(); ?>
+		</div>
+	</div>
+	<?
 } else {
 	?>
 <div class="row">
