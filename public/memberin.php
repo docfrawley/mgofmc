@@ -18,7 +18,6 @@ if (isset($_SESSION['whatmember']) && ($dohours)) {
 	if (isset($_POST['workhours'])){
 		switch ($_POST['workhours']) {
 			case 'add':
-				echo "yess here";
 				$member->add_hrs($_POST);
 				break;
 			case 'update':
@@ -29,16 +28,15 @@ if (isset($_SESSION['whatmember']) && ($dohours)) {
 		}
 	}
 	?>
-	<div class="row">
+	<div class="row" style="margin-top: 15px;">
+		<div class="small-12 columns">
+			<? $member->list_totals() ?>
+		</div>
   		<div class="small-12 columns">
 			<? $member->add_hours_form(); ?>
 		</div>
 	</div> 
-	<div class="row">
-		<div class="small-12 columns">
-			<? $member->list_totals() ?>
-		</div>
-		
+	<div class="row" style="margin-top: 15px; margin-bottom: 15px;">
   		<div class="small-12 columns">
 			<? $member->list_hrs(); ?>
 		</div>
@@ -46,7 +44,7 @@ if (isset($_SESSION['whatmember']) && ($dohours)) {
 	<?
 } else {
 	?>
-<div class="row">
+<div class="row" style="margin-top: 15px;">
   <div class="medium-8 columns panel">
   	<? if (isset($_SESSION['tryagain'])) {
   		echo $_SESSION['tryagain'];

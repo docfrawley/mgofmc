@@ -7,28 +7,28 @@ $themonth=isset($_GET['themonth']) ? $_GET['themonth'] : date("F");
 $this_month_tips = new mtipsgroup($themonth);
 ?>
 <div class="row" style="margin-top: 15px;">
-	<div class="medium-12 text-centered columns">
-		<dl class="sub-nav">
+	<div class="medium-12 text-centered columns custom-panel">
+		<dl class="monthly-tips">
 	  		<? tips_month($themonth); ?>
 		</dl>
 	</div>
 </div>
 
 <div class="row">
-  <div class="medium-6 columns panel">
+  <div class="medium-6 columns custom-panel-1">
     <h4 class="text-center"><? echo "Things to do in {$themonth}";?></h4>
 
     <? $this_month_tips->print_array('d'); ?>
   </div>
-  <div class="medium-6 columns panel">
+  <div class="medium-6 columns custom-panel-1">
   	<h4 class="text-center"><? echo "Things to watch for in {$themonth}";?></h4>
   	<? $this_month_tips->print_array('w'); ?>
   </div>
 </div>
 
 <div class="row">
-  <div class="medium-12 columns panel">
-    <h3>Things to Do All Year Long:</h3>
+  <div class="medium-12 columns custom-panel-4">
+    <h3 class="text-center">Things to Do All Year Long:</h3>
 
 Note: DATES MAY CHANGE SLIGHTLY OVER THE YEARS, ESPECIALLY AFTER MILD WINTERS.<br/>
 	<ul>
