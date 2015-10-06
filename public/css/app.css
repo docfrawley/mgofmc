@@ -6918,5 +6918,122 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+.custom-panel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 15px;
+  background: #0f6f42;
+  color: #FFFFFF;
+  height: 18.125em;
+  border-radius: 10px;
+  text-align: center; }
+  .custom-panel > :first-child {
+    margin-top: 0; }
+  .custom-panel > :last-child {
+    margin-bottom: 0; }
+  .custom-panel h1, .custom-panel h2, .custom-panel h3, .custom-panel h4, .custom-panel h5, .custom-panel h6, .custom-panel p, .custom-panel li, .custom-panel dl {
+    color: #FFFFFF; }
+  .custom-panel h1, .custom-panel h2, .custom-panel h3, .custom-panel h4, .custom-panel h5, .custom-panel h6 {
+    line-height: 1;
+    margin-bottom: 0.625rem; }
+    .custom-panel h1.subheader, .custom-panel h2.subheader, .custom-panel h3.subheader, .custom-panel h4.subheader, .custom-panel h5.subheader, .custom-panel h6.subheader {
+      line-height: 1.4; }
+  .custom-panel a {
+    color: #fff; }
+  .custom-panel a:hover {
+    color: #b3b3b3; }
+  .custom-panel img {
+    padding: 0.625em; }
+
+.custom-panel-two {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 20px;
+  background: #008CBA;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: left;
+  color: #fff; }
+  .custom-panel-two > :first-child {
+    margin-top: 0; }
+  .custom-panel-two > :last-child {
+    margin-bottom: 0; }
+  .custom-panel-two h1, .custom-panel-two h2, .custom-panel-two h3, .custom-panel-two h4, .custom-panel-two h5, .custom-panel-two h6, .custom-panel-two p, .custom-panel-two li, .custom-panel-two dl {
+    color: #FFFFFF; }
+  .custom-panel-two h1, .custom-panel-two h2, .custom-panel-two h3, .custom-panel-two h4, .custom-panel-two h5, .custom-panel-two h6 {
+    line-height: 1;
+    margin-bottom: 0.625rem; }
+    .custom-panel-two h1.subheader, .custom-panel-two h2.subheader, .custom-panel-two h3.subheader, .custom-panel-two h4.subheader, .custom-panel-two h5.subheader, .custom-panel-two h6.subheader {
+      line-height: 1.4; }
+  .custom-panel-two a {
+    color: #fff; }
+  .custom-panel-two a:hover {
+    color: #b3b3b3; }
+  .custom-panel-two table tr {
+    bgcolor: #5da423; }
+
+.custom-button-class {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1rem 0.5625rem 1rem;
+  background-color: #008CBA;
+  border-color: #007095;
+  color: #FFFFFF;
+  transition: background-color 300ms ease-out;
+  border-radius: 5px;
+  background-color: #457a1a;
+  font-size: 1.875em;
+  margin-top: 1.25em;
+  height: 6.25em;
+  width: 8.75em; }
+  .custom-button-class:hover, .custom-button-class:focus {
+    background-color: #007095; }
+  .custom-button-class:hover, .custom-button-class:focus {
+    color: #FFFFFF; }
+
+.custom-button-class2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1rem 0.5625rem 1rem;
+  background-color: #008CBA;
+  border-color: #007095;
+  color: #FFFFFF;
+  transition: background-color 300ms ease-out;
+  border-radius: 25px;
+  background-color: #457a1a;
+  font-size: 0.75em;
+  margin-top: 1.25em; }
+  .custom-button-class2:hover, .custom-button-class2:focus {
+    background-color: #007095; }
+  .custom-button-class2:hover, .custom-button-class2:focus {
+    color: #FFFFFF; }
 
 /*# sourceMappingURL=app.css.map */

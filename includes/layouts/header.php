@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Master Gardeners of Mercer County</title>
-    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
     <link href="css/ion.calendar.css" rel="stylesheet" type="text/css">
     <script src="ckeditor/ckeditor.js"></script>
     <script src="js/vendor/modernizr.js"></script>

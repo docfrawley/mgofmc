@@ -6,8 +6,8 @@
 $themonth=isset($_GET['themonth']) ? $_GET['themonth'] : date("F");
 $this_month_tips = new mtipsgroup($themonth);
 ?>
-<div class="row">
-	<div class="medium-12 small-centered columns">
+<div class="row" style="margin-top: 15px;">
+	<div class="medium-12 text-centered columns">
 		<dl class="sub-nav">
 	  		<? tips_month($themonth); ?>
 		</dl>
