@@ -7071,17 +7071,17 @@ th.hide-for-touch {
   text-decoration: none;
   display: inline-block;
   padding: 0.5rem 1rem 0.5625rem 1rem;
-  background-color: #004a0f;
-  border-color: #003b0c;
+  background-color: #007d19;
+  border-color: #006414;
   color: #FFFFFF;
   transition: background-color 300ms ease-out;
   border-radius: 5px;
-  font-size: 1.875em;
+  font-size: 1.25em;
   margin-top: 1.25em;
-  height: 6.25em;
+  height: 3.4375em;
   width: 8.75em; }
   .custom-button-class:hover, .custom-button-class:focus {
-    background-color: #003b0c; }
+    background-color: #006414; }
   .custom-button-class:hover, .custom-button-class:focus {
     color: #FFFFFF; }
 
