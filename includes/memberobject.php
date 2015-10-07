@@ -154,7 +154,7 @@ class memberobject {
     ?>
     <form action="memberin.php" method="POST">
 
-        <div class="row panel">
+        <div class="row custom-panel-11">
           <div class="small-12 columns text-center">
               <h3>Enter Hours Form</h3>
           </div>
@@ -220,7 +220,6 @@ class memberobject {
 
   function add_hrs($info){
     global $database;
-    print_r($info);
     $datereceipt = mktime(0, 0, 0, $database->escape_value($info['month']), 
       $database->escape_value($info['day']), 
       $database->escape_value($info['year']));

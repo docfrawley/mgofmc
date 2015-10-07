@@ -5,7 +5,7 @@
 
 <div class="row" style="margin-top: 15px;">
 	<div class="medium-7 columns">
-		  <img src="img/logo.jpg" alt="slide 1" />
+		  <img src="img/logo2.jpg" alt="slide 1" />
   </div>
   <div class="medium-5 columns">
     <ul class="example-orbit-content" data-orbit data-options="animation_speed:500;

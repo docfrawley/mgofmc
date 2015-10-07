@@ -2,7 +2,7 @@
 <? if (!isset($_GET['admintask'])) {
 	?>
 	<div class="row">
-	    <div class="small-12 columns text-center panel">
+	    <div class="small-12 columns text-center custom-panel-3">
 	        <h3>Helpline Number: 609-989-6853</h3>
 	    </div>
 	</div><?
